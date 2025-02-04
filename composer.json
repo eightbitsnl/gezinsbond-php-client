@@ -1,0 +1,20 @@
+{
+    "name": "eightbitsnl/gezinsbond-php-client",
+    "description": "A PHP Client for Gezinsbond API",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eightbitsnl\\GezinsbondPhpClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Loek Wetzels",
+            "email": "loek.wetzels@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
