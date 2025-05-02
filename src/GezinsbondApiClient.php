@@ -4,6 +4,7 @@ namespace Eightbitsnl\GezinsbondPhpClient;
 
 use BadMethodCallException;
 use Eightbitsnl\GezinsbondPhpClient\Requests\V2\Members\GetIsActive as V2GetMembersIsActive;
+use Eightbitsnl\GezinsbondPhpClient\Requests\V2\Members\GetFamily as V2GetMembersFamily;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use Psr\Http\Message\ResponseInterface;
@@ -25,6 +26,7 @@ class GezinsbondApiClient
     {
         $this->requests = [
             'V2GetMembersIsActive' => V2GetMembersIsActive::class,
+            'V2GetMembersFamily' => V2GetMembersFamily::class,
         ];
     }
 
